@@ -1,0 +1,1 @@
+web: sh setup.sh && streamlit run fish_detection_front_end.py --server.port ${PORT:-8501}
